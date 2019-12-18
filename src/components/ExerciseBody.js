@@ -11,7 +11,7 @@ const ExerciseBody = () => {
       </div>
       <section>
         <div className="exercise-item">
-          <div className="exercise-container">
+          <div className="exercise-container -alternate">
             <div className="exercise-img">
               <img src="accordion.jpg" alt="accordion" className="img" />
             </div>
@@ -25,7 +25,7 @@ const ExerciseBody = () => {
           </div>
         </div>
         <div className="exercise-item">
-          <div className="exercise-container">
+          <div className="exercise-container -alternate">
             <div className="exercise-img">
               <img src="tabs.jpg" alt="tabs" className="img" />
             </div>
@@ -39,7 +39,7 @@ const ExerciseBody = () => {
           </div>
         </div>
         <div className="exercise-item">
-          <div className="exercise-container">
+          <div className="exercise-container -alternate">
             <div className="exercise-img">
               <img src="counter.jpg" alt="counter" className="img" />
             </div>
@@ -53,7 +53,7 @@ const ExerciseBody = () => {
           </div>
         </div>
         <div className="exercise-item">
-          <div className="exercise-container">
+          <div className="exercise-container -alternate">
             <div className="exercise-img">
               <img src="input.jpg" alt="input" className="img" />
             </div>
@@ -67,7 +67,7 @@ const ExerciseBody = () => {
           </div>
         </div>
         <div className="exercise-item">
-          <div className="exercise-container">
+          <div className="exercise-container -alternate">
             <div className="exercise-img">
               <img src="searchable.jpg" alt="searchable" className="img" />
             </div>

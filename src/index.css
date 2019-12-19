@@ -470,8 +470,10 @@ li:first-child::before {
   margin-bottom: 80px;
 }
 
-.exercise-container.-alternate {
-  margin-right: 16px;
+@media (min-width: 768px) {
+  .exercise-container.-alternate {
+    margin-right: 16px;
+  }
 }
 
 .exercise-container > .exercise-img {

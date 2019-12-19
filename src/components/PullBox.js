@@ -5,7 +5,7 @@ const PullBox = () => {
     <div className="pull-box">
       <h6 className="heading">Work With Me</h6>
       <p className="body">
-        Please help me <span className="emphasize">grow</span>
+        Help me <span className="emphasize">grow</span> professionally
       </p>
       <aside className="action">
         <button href="#">Let's Talk</button>

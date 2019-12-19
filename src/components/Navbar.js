@@ -1,28 +1,44 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
-
-  const handleClick = () => {
-    setActive(active === "" ? "link-active" : "");
-  };
-
   return (
     <nav className="main-nav">
       <Link to="/" className="title">
         EJ
       </Link>
       <div className="linkset">
-        <Link to="/" className={`link ${setActive}`} onClick={handleClick}>
+        <NavLink
+          exact
+          to="/"
+          className="link"
+          activeStyle={{
+            fontWeight: "bold",
+            color: "#1d3a57"
+          }}
+        >
           Home
-        </Link>
-        <Link to="/showcase" className="link" onClick={handleClick}>
+        </NavLink>
+        <NavLink
+          to="/showcase"
+          className="link"
+          activeStyle={{
+            fontWeight: "bold",
+            color: "#1d3a57"
+          }}
+        >
           Showcase
-        </Link>
-        <Link to="/exercise" className="link" onClick={handleClick}>
+        </NavLink>
+        <NavLink
+          to="/exercise"
+          className="link"
+          activeStyle={{
+            fontWeight: "bold",
+            color: "#1d3a57"
+          }}
+        >
           Exercise
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

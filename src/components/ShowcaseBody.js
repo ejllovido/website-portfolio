@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PullBox from "./PullBox";
 import Footer from "./Footer";
 
@@ -38,13 +37,13 @@ const ShowcaseBody = () => {
               <li>Web App</li>
               <li>UI Design</li>
             </ul>
-            <Link
+            <a
               className="button"
-              to="https://github.com/ejllovido/catch-of-the-day"
+              href="https://github.com/ejllovido/catch-of-the-day"
               target="_blank"
             >
               View Project
-            </Link>
+            </a>
           </div>
         </div>
         <div className="showcase-item">
@@ -71,13 +70,13 @@ const ShowcaseBody = () => {
               <li>Web App</li>
               <li>UI Design</li>
             </ul>
-            <Link
+            <a
               className="button"
-              to="https://github.com/ejllovido/bills-payment-tracker"
+              href="https://github.com/ejllovido/bills-payment-tracker"
               target="_blank"
             >
               View Project
-            </Link>
+            </a>
           </div>
         </div>
         <div className="showcase-item">
@@ -102,13 +101,13 @@ const ShowcaseBody = () => {
               <li>Web App</li>
               <li>UI Design</li>
             </ul>
-            <Link
+            <a
               className="button"
-              to="https://github.com/ejllovido/vidly"
+              href="https://github.com/ejllovido/vidly"
               target="_blank"
             >
               View Project
-            </Link>
+            </a>
           </div>
         </div>
       </section>

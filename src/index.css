@@ -54,17 +54,23 @@ p {
 
 /* Navbar */
 .main-nav {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 100%;
-  max-width: 800px;
-  padding-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    max-width: 800px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
 }
 
 .main-nav > .title,
@@ -73,10 +79,36 @@ p {
 }
 
 .main-nav > .title {
-  color: #1d3a57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 24px;
   font-weight: 800;
   letter-spacing: 2px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .main-nav > .title {
+    color: #1d3a57;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+}
+
+.main-nav > .linkset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+@media (min-width: 768px) {
+  .main-nav > .linkset {
+    border-bottom: none;
+  }
 }
 
 .main-nav > .linkset > .link {

@@ -113,8 +113,14 @@ p {
 
 .formatted-content.-lead > .body {
   line-height: 1.5;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .formatted-content.-lead > .body {
+    font-size: 32px;
+  }
 }
 
 .formatted-content > .body {
@@ -153,23 +159,27 @@ p {
 
 /* Showcase Body */
 .showcase-item {
-  display: block;
-  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 0px;
   margin-bottom: 40px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 @media (min-width: 768px) {
   .showcase-item {
-    display: flex;
+    flex-direction: row;
     height: 320px;
     overflow-y: hidden;
+    padding-top: 40px;
     border-bottom: 1px solid #e7e7e7;
   }
 }
 
-.showcase-item:last-child {
-  margin-bottom: 80px;
+@media (min-width: 768px) {
+  .showcase-item:last-child {
+    margin-bottom: 80px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -177,9 +187,9 @@ p {
     flex-direction: row-reverse;
   }
 }
+
 .showcase-item:nth-child(odd) > .preview {
   margin-right: 0;
-  margin-left: 32px;
 }
 
 .showcase-item > .info > .title {
@@ -198,8 +208,14 @@ p {
 }
 
 .formatted-content.-intro > .body {
-  font-size: 24px;
+  font-size: 18px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .formatted-content.-intro > .body {
+    font-size: 24px;
+  }
 }
 
 .formatted-content.-intro > .heading {
@@ -215,7 +231,13 @@ p {
 
 /* Info */
 .info {
-  width: 40%;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .info {
+    width: 40%;
+  }
 }
 
 /* changing the list style */
@@ -262,6 +284,7 @@ li:first-child::before {
   padding: 0 30px;
   height: 36px;
   vertical-align: middle;
+  margin-bottom: 24px;
   line-height: 35px;
   font-size: 12px;
   font-weight: 600;
@@ -280,10 +303,16 @@ li:first-child::before {
 /* Preview */
 .preview {
   margin-top: 32px;
-  margin-right: 32px;
-  width: 60%;
+  margin-bottom: 32px;
   transition: 200ms all ease;
   transform: translateY(0px);
+}
+
+@media (min-width: 992px) {
+  .preview {
+    width: 60%;
+    margin-right: 32px;
+  }
 }
 
 .preview:hover {
@@ -396,12 +425,17 @@ li:first-child::before {
 
 /* Footer */
 .main-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-top: 1px solid #e7e7e7;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .main-footer > .text {
@@ -422,8 +456,14 @@ li:first-child::before {
 
 /* Exercise Body */
 .exercise-item {
-  display: flex;
   margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .exercise-item {
+    display: flex;
+    margin-bottom: 8px;
+  }
 }
 
 .exercise-item:last-child {

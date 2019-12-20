@@ -517,7 +517,7 @@ li:first-child::before {
   border: 1px solid #e7e7e7;
 }
 
-.exercise-container > .exercise-img > .img {
+.img {
   height: 100%;
   transform: scale(1);
   transition: 300ms all ease;
@@ -527,7 +527,7 @@ li:first-child::before {
   cursor: pointer;
 }
 
-.exercise-container > .exercise-img > .img:hover {
+.img:hover {
   transform: scale(1.3);
 }
 

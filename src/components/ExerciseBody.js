@@ -14,11 +14,7 @@ const ExerciseBody = () => {
           <div className="exercise-container -alternate">
             <div className="exercise-img">
               <a href="https://github.com/ejllovido/accordion" target="_blank">
-                <img
-                  src="accordion.jpg"
-                  alt="accordion"
-                  className="exercise-img"
-                />
+                <img src="accordion.jpg" alt="accordion" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Accordion from scratch</div>
@@ -29,11 +25,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/dropdown-fscratch"
                 target="_blank"
               >
-                <img
-                  src="dropdown.jpg"
-                  alt="dropdown"
-                  className="exercise-img"
-                />
+                <img src="dropdown.jpg" alt="dropdown" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Dropdown from scratch</div>
@@ -43,7 +35,7 @@ const ExerciseBody = () => {
           <div className="exercise-container -alternate">
             <div className="exercise-img">
               <a href="https://github.com/ejllovido/router-app" target="_blank">
-                <img src="tabs.jpg" alt="tabs" className="exercise-img" />
+                <img src="tabs.jpg" alt="tabs" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Tabs from scratch</div>
@@ -54,7 +46,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/tooltip-fscratch"
                 target="_blank"
               >
-                <img src="tooltip.jpg" alt="tooltip" className="exercise-img" />
+                <img src="tooltip.jpg" alt="tooltip" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Tooltip from scratch</div>
@@ -67,7 +59,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/counter-app"
                 target="_blank"
               >
-                <img src="counter.jpg" alt="counter" className="exercise-img" />
+                <img src="counter.jpg" alt="counter" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Counter App</div>
@@ -75,7 +67,7 @@ const ExerciseBody = () => {
           <div className="exercise-container">
             <div className="exercise-img">
               <a href="https://github.com/ejllovido/http-app" target="_blank">
-                <img src="http.jpg" alt="http" className="exercise-img" />
+                <img src="http.jpg" alt="http" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Http App</div>
@@ -88,7 +80,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/input-update"
                 target="_blank"
               >
-                <img src="input.jpg" alt="input" className="exercise-img" />
+                <img src="input.jpg" alt="input" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Input update</div>
@@ -99,11 +91,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/question-generator"
                 target="_blank"
               >
-                <img
-                  src="question.jpg"
-                  alt="question"
-                  className="exercise-img"
-                />
+                <img src="question.jpg" alt="question" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Question Generator</div>
@@ -116,11 +104,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/searchable-list"
                 target="_blank"
               >
-                <img
-                  src="searchable.jpg"
-                  alt="searchable"
-                  className="exercise-img"
-                />
+                <img src="searchable.jpg" alt="searchable" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Searchable List</div>
@@ -131,7 +115,7 @@ const ExerciseBody = () => {
                 href="https://github.com/ejllovido/color-randomizer"
                 target="_blank"
               >
-                <img src="color.jpg" alt="color" className="exercise-img" />
+                <img src="color.jpg" alt="color" className="e-img" />
               </a>
             </div>
             <div className="exercise-desc">Color randomizer</div>

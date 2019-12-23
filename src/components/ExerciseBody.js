@@ -7,7 +7,7 @@ const ExerciseBody = () => {
     <div className="container">
       <div className="formatted-content -intro">
         <h6 className="heading">Exercise</h6>
-        <p className="body">I challenge my self by building code exercise</p>
+        <p className="body">I challenge my self by working on code exercise.</p>
       </div>
       <section>
         <div className="exercise-item">

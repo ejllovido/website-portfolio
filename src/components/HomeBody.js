@@ -7,17 +7,14 @@ const HomeBody = () => {
       <div className="formatted-content -lead">
         <h6 className="heading">EJ Llovido</h6>
         <p className="body">
-          I'm a self taught developer.
-          <br />I work hard and smart to achieve personal growth and the
-          company's goals.
+          I'm an aspiring front-end developer looking to build amazing software.
         </p>
       </div>
       <div className="formatted-content">
         <h6 className="heading">Work</h6>
         <p className="body">
-          Website Builder at Luxury Presence.
-          <br />
-          I'm in charge on building the front-end using JSON.
+          Currently working as Website Builder at Luxury Presence. I'm in charge
+          of configuring and building websites using JSON.
         </p>
       </div>
       <div className="formatted-content">

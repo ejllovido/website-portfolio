@@ -8,7 +8,7 @@ const ShowcaseBody = () => {
       <div className="formatted-content -intro">
         <h6 className="heading">Showcase</h6>
         <p className="body">
-          Here are my self projects which I build during my free time
+          Here are some pet projects I've built during my free time.
         </p>
       </div>
       <section>

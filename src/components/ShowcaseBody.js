@@ -31,7 +31,7 @@ const ShowcaseBody = () => {
             <h1 className="title">Catch of the Day</h1>
             <p className="description">
               A real-time app for seafood market where price and quantity
-              available are variable and can change at a moment's notice.
+              available are variable.
             </p>
             <ul className="tags">
               <li>Web App</li>
@@ -62,7 +62,7 @@ const ShowcaseBody = () => {
             </div>
           </div>
           <div className="info">
-            <h1 className="title">Bills Payment Tracker</h1>
+            <h1 className="title">Bills Tracker</h1>
             <p className="description">
               A simple tracker for your family bills payment.
             </p>
